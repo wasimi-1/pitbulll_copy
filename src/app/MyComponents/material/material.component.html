@@ -1,0 +1,17 @@
+
+<button mat-flat-button>Basic</button>
+
+<mat-card>
+    <mat-card-title>My Angular Form</mat-card-title>
+    <mat-card-content>
+        <mat-form-field>
+            <mat-label>Name</mat-label>
+            <input matInput [(ngModel)]="name">
+        </mat-form-field>
+        <br>
+        <button mat-flat-button (click)="btnClick()">PressMe</button>
+
+        <button mat-flat-button (click)="btnHome()">Go to home</button>
+    </mat-card-content>
+</mat-card>
+
